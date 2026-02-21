@@ -25,11 +25,11 @@ function Navigation() {
               className={`flex items-center gap-3 px-6 py-3 rounded-xl transition-all duration-200 border-2 shadow-sm ${
                 isActive('/')
                   ? 'bg-purple-700 text-white border-purple-800 font-black shadow-purple-200'
-                  : 'bg-white text-black border-slate-900 font-black hover:bg-slate-900 hover:text-white' 
+                  : 'bg-white text-black border-slate-900 font-black hover:text-white' 
               }`}
             >
               <FaHome className={`text-xl ${isActive('/') ? 'text-white' : 'text-purple-600'}`} />
-              <span>EXPERTS</span>
+              <span style={{color:'#1F2937'}}>EXPERTS</span>
             </Link>
 
             <Link
@@ -37,11 +37,11 @@ function Navigation() {
               className={`flex items-center gap-3 px-6 py-3 rounded-xl transition-all duration-200 border-2 shadow-sm ${
                 isActive('/my-bookings')
                   ? 'bg-purple-700 text-white border-purple-800 font-black shadow-purple-200'
-                  : 'bg-white text-black border-slate-900 font-black hover:bg-slate-900 hover:text-white'
+                  : 'bg-white text-black border-slate-900 font-black hover:text-white'
               }`}
             >
               <FaBook className={`text-xl ${isActive('/my-bookings') ? 'text-white' : 'text-purple-600'}`} />
-              <span>MY BOOKINGS</span>
+              <span style={{color:'#1F2937'}}>MY BOOKINGS</span>
             </Link>
 
           </div>

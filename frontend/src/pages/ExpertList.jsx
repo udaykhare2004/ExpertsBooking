@@ -166,7 +166,9 @@ function ExpertList() {
                         </div>
                       </div>
                       <Link to={`/expert/${expert._id}`}>
-                        <h3 className="text-2xl font-bold mb-1 hover:underline">{expert.name}</h3>
+                        <h3 className="text-2xl font-bold mb-1 hover:underline" style={{
+                          color:'white'
+                        }}>{expert.name}</h3>
                       </Link>
                       <p className="text-sm opacity-90 mb-4">{expert.experience} Years Experience</p>
                       <div className="bg-white text-slate-900 px-4 py-1.5 rounded-full text-xs font-black shadow-lg inline-block">
