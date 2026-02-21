@@ -2,6 +2,9 @@
 
 A full-stack expert booking application with real-time slot updates, double booking prevention, and comprehensive booking management as required by the assignment.
 
+## DEMO LINK:
+https://drive.google.com/file/d/1dz4nPHqkSaWS3grDzdzdIZOK0GJ6S0uy/view?usp=sharing
+
 ## Features
 
 ### Frontend
